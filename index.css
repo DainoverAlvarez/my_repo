@@ -6,3 +6,14 @@ img{
     max-width: 100%;
     vertical-align: top;
 }
+ img#responsive{
+        display: none;
+    }
+@media screen and (max-width: 780px){
+    img#responsive{
+        display: block;
+    }
+    img {
+        display: none;
+    }
+}
